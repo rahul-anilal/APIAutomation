@@ -7,7 +7,11 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "/Users/r0s0q3t/Desktop/CucumberTest/APIAutomation/src/test/java/features"
-        ,glue={"stepdefinitions"}
+        ,glue={"stepdefinitions"},
+        plugin = {
+                "pretty",
+                "json:target/cucumber-reports.json"
+        }
 )
 
 public class TestRunner {
