@@ -51,6 +51,9 @@ public class Products {
         String s = jsonPath.getJsonObject("rating[0].rate").toString();
 
         assertEquals(s, rate);
+
+        System.out.println("Rate = " + s);
+        System.out.println("GET successful.\n");
     }
 
     @Given("I hit the url of post products api endpoint")
@@ -77,6 +80,7 @@ public class Products {
 
         System.out.println(response.getStatusCode());
         System.out.println(responseBody.asString());
+        System.out.println("POST successful.\n");
 
     }
 
@@ -104,6 +108,7 @@ public class Products {
 
         System.out.println(response.getStatusCode());
         System.out.println(responseBody.asString());
+        System.out.println("PUT successful.\n");
     }
 
     @Given("I hit the url of delete products api endpoint")
@@ -121,5 +126,6 @@ public class Products {
 
         System.out.println(response.getStatusCode());
         System.out.println(responseBody.asString());
+        System.out.println("DELETE successful.\n");
     }
 }
