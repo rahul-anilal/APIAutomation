@@ -5,6 +5,11 @@ pipeline {
             steps {
                 sh './mvnw clean test'
             }
+            post{
+                always{
+                    junit '**/surefire-reports/*.xml'
+                }
+            }
         }
     }
 }
