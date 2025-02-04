@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.TestRunner" time="6.272" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.TestRunner" time="6.911" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/r0s0q3t/Desktop/CucumberTest/APIAutomation/target/surefire/surefirebooter-20250204152828118_3.jar /Users/r0s0q3t/Desktop/CucumberTest/APIAutomation/target/surefire 2025-02-04T15-28-27_992-jvmRun1 surefire-20250204152828118_1tmp surefire_0-20250204152828118_2tmp"/>
+    <property name="sun.java.command" value="/Users/r0s0q3t/Desktop/CucumberTest/APIAutomation/target/surefire/surefirebooter-20250204154424528_3.jar /Users/r0s0q3t/Desktop/CucumberTest/APIAutomation/target/surefire 2025-02-04T15-44-24_466-jvmRun1 surefire-20250204154424528_1tmp surefire_0-20250204154424528_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/r0s0q3t/Desktop/CucumberTest/APIAutomation/target/test-classes:/Users/r0s0q3t/Desktop/CucumberTest/APIAutomation/target/classes:/Users/r0s0q3t/.m2/repository/io/cucumber/cucumber-junit/7.20.1/cucumber-junit-7.20.1.jar:/Users/r0s0q3t/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/r0s0q3t/.m2/repository/io/cucumber/cucumber-core/7.20.1/cucumber-core-7.20.1.jar:/Users/r0s0q3t/.m2/repository/io/cucumber/cucumber-gherkin/7.20.1/cucumber-gherkin-7.20.1.jar:/Users/r0s0q3t/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.20.1/cucumber-gherkin-messages-7.20.1.jar:/Users/r0s0q3t/.m2/repository/io/cucumber/gherkin/28.0.0/gherkin-28.0.0.jar:/Users/r0s0q3t/.m2/repository/io/cucumber/messages/24.1.0/messages-24.1.0.jar:/Users/r0s0q3t/.m2/repository/io/cucumber/testng-xml-formatter/0.2.0/testng-xml-formatter-0.2.0.jar:/Users/r0s0q3t/.m2/repository/io/cucumber/query/12.2.0/query-12.2.0.jar:/Users/r0s0q3t/.m2/repository/io/cucumber/tag-expressions/6.1.0/tag-expressions-6.1.0.jar:/Users/r0s0q3t/.m2/repository/io/cucumber/cucumber-expressions/17.1.0/cucumber-expressions-17.1.0.jar:/Users/r0s0q3t/.m2/repository/io/cucumber/datatable/7.20.1/datatable-7.20.1.jar:/Users/r0s0q3t/.m2/repository/io/cucumber/cucumber-plugin/7.20.1/cucumber-plugin-7.20.1.jar:/Users/r0s0q3t/.m2/repository/io/cucumber/docstring/7.20.1/docstring-7.20.1.jar:/Users/r0s0q3t/.m2/repository/io/cucumber/html-formatter/21.7.0/html-formatter-21.7.0.jar:/Users/r0s0q3t/.m2/repository/io/cucumber/junit-xml-formatter/0.5.0/junit-xml-formatter-0.5.0.jar:/Users/r0s0q3t/.m2/repository/io/cucumber/ci-environment/10.0.1/ci-environment-10.0.1.jar:/Users/r0s0q3t/.m2/repository/io/cucumber/cucumber-java/7.21.0/cucumber-java-7.21.0.jar:/Users/r0s0q3t/.m2/repository/io/rest-assured/rest-assured/5.5.0/rest-assured-5.5.0.jar:/Users/r0s0q3t/.m2/repository/org/apache/groovy/groovy/4.0.22/groovy-4.0.22.jar:/Users/r0s0q3t/.m2/repository/org/apache/groovy/groovy-xml/4.0.22/groovy-xml-4.0.22.jar:/Users/r0s0q3t/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/r0s0q3t/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/r0s0q3t/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/r0s0q3t/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/r0s0q3t/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/r0s0q3t/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/r0s0q3t/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/r0s0q3t/.m2/repository/io/rest-assured/json-path/5.5.0/json-path-5.5.0.jar:/Users/r0s0q3t/.m2/repository/org/apache/groovy/groovy-json/4.0.22/groovy-json-4.0.22.jar:/Users/r0s0q3t/.m2/repository/io/rest-assured/rest-assured-common/5.5.0/rest-assured-common-5.5.0.jar:/Users/r0s0q3t/.m2/repository/io/rest-assured/xml-path/5.5.0/xml-path-5.5.0.jar:/Users/r0s0q3t/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/r0s0q3t/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/r0s0q3t/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/r0s0q3t/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:"/>
@@ -28,7 +28,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/Users/r0s0q3t/Desktop/CucumberTest/APIAutomation/target/surefire/surefirebooter-20250204152828118_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/r0s0q3t/Desktop/CucumberTest/APIAutomation/target/surefire/surefirebooter-20250204154424528_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="17.0.14+7-LTS"/>
@@ -56,24 +56,24 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="Validate if DELETE product API status code works correctly" classname="Delete product using DELETE API" time="1.386">
+  <testcase name="Validate if DELETE product API status code works correctly" classname="Delete product using DELETE API" time="1.53">
     <system-out><![CDATA[200
 {"id":7,"title":"White Gold Plated Princess","price":9.99,"description":"Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...","category":"jewelery","image":"https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg","rating":{"rate":3,"count":400}}
 ]]></system-out>
   </testcase>
-  <testcase name="Verify the get api for the products" classname="Get all products from the api" time="0.876"/>
-  <testcase name="Verify the rate of the first product is correct" classname="Get all products from the api" time="1.187"/>
-  <testcase name="Validate if POST product API status code works correctly" classname="Insert product using POST API" time="1.068">
+  <testcase name="Verify the get api for the products" classname="Get all products from the api" time="1.009"/>
+  <testcase name="Verify the rate of the first product is correct" classname="Get all products from the api" time="1.214"/>
+  <testcase name="Validate if POST product API status code works correctly" classname="Insert product using POST API" time="1.195">
     <system-out><![CDATA[200
 {"id":21}
 ]]></system-out>
   </testcase>
-  <testcase name="Validate if POST product API response works correctly" classname="Insert product using POST API" time="1.092">
+  <testcase name="Validate if POST product API response works correctly" classname="Insert product using POST API" time="1.193">
     <system-out><![CDATA[200
 {"id":21}
 ]]></system-out>
   </testcase>
-  <testcase name="Validate if PUT product API status code works correctly" classname="Update product using PUT API" time="0.531">
+  <testcase name="Validate if PUT product API status code works correctly" classname="Update product using PUT API" time="0.631">
     <system-out><![CDATA[200
 {"id":7}
 ]]></system-out>
